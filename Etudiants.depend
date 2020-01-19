@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1578934697 source:d:\cours l3gl\c++\etudiants\main.cpp
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdio.h>
+	<string>
+	"ETUDIANT.h"
+	"LOGER.h"
+	"BOURSIER.h"
+	"services.h"
+	"views.h"
+
+1579468795 source:d:\cours l3gl\c++\etudiants\src\etudiant.cpp
+	<iostream>
+	"ETUDIANT.h"
+
+1578934408 d:\cours l3gl\c++\etudiants\include\etudiant.h
+	<string>
+
+1578939244 source:d:\cours l3gl\c++\etudiants\src\boursier.cpp
+	"BOURSIER.h"
+	"ETUDIANT.h"
+	<iostream>
+
+1578937575 d:\cours l3gl\c++\etudiants\include\boursier.h
+	"ETUDIANT.h"
+
+1578939235 source:d:\cours l3gl\c++\etudiants\src\loger.cpp
+	"LOGER.h"
+	"ETUDIANT.h"
+	"CHAMBRE.h"
+	<iostream>
+
+1578938368 d:\cours l3gl\c++\etudiants\include\loger.h
+	"ETUDIANT.h"
+	"CHAMBRE.h"
+	<string>
+
+1575922599 d:\cours l3gl\c++\etudiants\prototypes.h
+	<cstdlib>
+	<vector>
+	<cstdlib>
+	"ETUDIANT.h"
+	"LOGER.h"
+	"BOURSIER.h"
+
+1579468113 d:\cours l3gl\c++\etudiants\services.h
+	<iostream>
+	<vector>
+	<cstdlib>
+	<string>
+	<sstream>
+	"MysqlDB.h"
+	"ETUDIANT.h"
+	"LOGER.h"
+	"BOURSIER.h"
+	"BATIMENT.h"
+	"CHAMBRE.h"
+	"dao.h"
+
+1579469424 d:\cours l3gl\c++\etudiants\views.h
+	<iostream>
+	<cstdlib>
+
+1579134708 d:\cours l3gl\c++\etudiants\include\chambre.h
+	"BATIMENT.h"
+
+1579287982 d:\cours l3gl\c++\etudiants\include\batiment.h
+	<iostream>
+
+1578317325 d:\cours l3gl\c++\etudiants\chambre.h
+
+1579288138 source:d:\cours l3gl\c++\etudiants\src\batiment.cpp
+	"BATIMENT.h"
+	"MysqlDB.h"
+	<iostream>
+	<vector>
+	<cstdlib>
+	<string>
+	<sstream>
+
+1579469660 source:d:\cours l3gl\c++\etudiants\src\chambre.cpp
+	"CHAMBRE.h"
+	"BATIMENT.h"
+	"MysqlDB.h"
+	<iostream>
+
+1578948083 d:\cours l3gl\c++\etudiants\include\mysqldb.h
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdio.h>
+	<string>
+
+1578941235 source:d:\cours l3gl\c++\etudiants\src\mysqldb.cpp
+	"MysqlDB.h"
+	<iostream>
+	<windows.h>
+	<mysql.h>
+	<sstream>
+	<stdio.h>
+	<string>
+
+1579290653 d:\cours l3gl\c++\etudiants\dao.h
+
